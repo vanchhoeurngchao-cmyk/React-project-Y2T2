@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Grammar",
+    "topic": "Comparatives",
+    "progress": 20,
+    "color": "#A855F7"
+  },
+  {
+    "id": 2,
+    "title": "Listening",
+    "topic": "Daily Activities",
+    "progress": 80,
+    "color": "#EAB308"
+  },
+  {
+    "id": 3,
+    "title": "Vocabulary",
+    "topic": "Food & Drinks",
+    "progress": 45,
+    "color": "#EF4444"
+  },
+  {
+    "id": 4,
+    "title": "Reading",
+    "topic": "Travel Stories",
+    "progress": 10,
+    "color": "#10B981"
+  }
+]
