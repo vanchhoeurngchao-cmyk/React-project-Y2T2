@@ -6,14 +6,14 @@ const MainLayout = ({ children }) => {
     <div className="container grid grid-cols-[230px_1fr] gap-5 p-5 h-screen max-[992px]:grid-cols-[200px_1fr] max-[600px]:grid-cols-1">
       <aside className="sidebar">
         <div className="logo">
-          <img src="/image/main pic/logo.png" alt="Logo" />
+          <img src="/src/assets/MainPage/logo.png" alt="Logo" />
           <h2>L-Learning</h2>
         </div>
         <nav className="flex flex-col">
           <NavLink to="/dashboard">Dashboard</NavLink>
           <NavLink to="/classes">Classes</NavLink>
           <NavLink to="/practice">Practice</NavLink>
-          <NavLink to="/learning-plan">Learning Plan</NavLink>
+          <NavLink to="/learningplan">Learning Plan</NavLink>
           <NavLink to="/social">Social</NavLink>
           <NavLink to="/profile">Profile</NavLink>
         </nav>
