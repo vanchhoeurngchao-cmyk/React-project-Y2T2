@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Listening’s Practice",
+    "icon": "headphones",
+    "hearts": 3,
+    "subtitle": "Listen & Complete",
+    "description": "Listen to the audio and complete the missing words correctly.",
+    "outerBg": "bg-sky-500",
+    "innerBg": "bg-sky-400",
+    "textColor": "text-sky-600",
+    "isLocked": false
+  },
+  {
+    "id": 2,
+    "title": "Grammar’s Practice",
+    "icon": "rule",
+    "hearts": 3,
+    "subtitle": "Grammar Fix",
+    "description": "Choose the correct grammar to fix the sentence.",
+    "outerBg": "bg-green-500",
+    "innerBg": "bg-green-400",
+    "textColor": "text-green-600",
+    "isLocked": false
+  },
+  {
+    "id": 3,
+    "title": "Vocabulary’s Quiz",
+    "icon": "menu_book",
+    "hearts": 3,
+    "subtitle": "Word Match",
+    "description": "Match each word with its correct meaning to improve your vocabulary skills.",
+    "outerBg": "bg-purple-500",
+    "innerBg": "bg-purple-400",
+    "textColor": "text-purple-600",
+    "isLocked": false
+  },
+  {
+    "id": 4,
+    "title": "Speaking’s Practice",
+    "icon": "mic",
+    "hearts": 3,
+    "subtitle": "Say It Aloud",
+    "description": "Speak the sentence and check your pronunciation.",
+    "outerBg": "bg-orange-500",
+    "innerBg": "bg-orange-400",
+    "textColor": "text-orange-600",
+    "isLocked": false
+  },
+  {
+    "id": 5,
+    "title": "Reading’s Practice",
+    "icon": "article",
+    "hearts": 3,
+    "subtitle": "Reading Check",
+    "description": "Read the passage carefully and answer the questions.",
+    "outerBg": "bg-red-500",
+    "innerBg": "bg-red-400",
+    "textColor": "text-red-600",
+    "isLocked": false
+  },
+  {
+    "id": 6,
+    "title": "Writing’s Practice",
+    "icon": "edit_note",
+    "hearts": 3,
+    "subtitle": "Write It Right",
+    "description": "Use the given words to write a short and meaningful sentence.",
+    "outerBg": "bg-teal-500",
+    "innerBg": "bg-teal-400",
+    "textColor": "text-teal-600",
+    "isLocked": false
+  },
+  {
+    "id": 7,
+    "title": "Conversation’s Practice",
+    "icon": "forum",
+    "hearts": 3,
+    "subtitle": "Daily Conversation",
+    "description": "Choose the best reply to continue the conversation.",
+    "outerBg": "bg-indigo-500",
+    "innerBg": "bg-indigo-400",
+    "textColor": "text-indigo-600",
+    "isLocked": false
+  }
+]
