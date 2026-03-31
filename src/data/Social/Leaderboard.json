@@ -1,0 +1,59 @@
+[
+    {
+        "rank": 1,
+        "name": "Kai Liu",
+        "xp": 1110,
+        "initial": "K",
+        "rankColor": "bg-yellow-400",
+        "nameColor": "text-gray-800"
+    },
+    {
+        "rank": 2,
+        "name": "Ayden Lok",
+        "xp": 516,
+        "initial": "A",
+        "rankColor": "bg-gray-300",
+        "nameColor": "text-gray-800"
+    },
+    {
+        "rank": 3,
+        "name": "Yvon",
+        "xp": 389,
+        "initial": "Y",
+        "rankColor": "bg-orange-400",
+        "nameColor": "text-gray-800",
+        "isLastTopThree": true
+    },
+    {
+        "rank": 4,
+        "name": "Oreo Bluntik",
+        "xp": 332,
+        "initial": "O",
+        "rankColor": "text-green-600",
+        "nameColor": "text-gray-600"
+    },
+    {
+        "rank": 5,
+        "name": "KoLa Mi",
+        "xp": 149,
+        "initial": "K",
+        "rankColor": "text-green-600",
+        "nameColor": "text-gray-600"
+    },
+    {
+        "rank": 6,
+        "name": "Quỳnh Em",
+        "xp": 100,
+        "initial": "Q",
+        "rankColor": "text-green-600",
+        "nameColor": "text-gray-600"
+    },
+    {
+        "rank": 7,
+        "name": "Hanji ju",
+        "xp": 68,
+        "initial": "H",
+        "rankColor": "text-green-600",
+        "nameColor": "text-gray-600"
+    }
+]

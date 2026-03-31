@@ -1,0 +1,45 @@
+{
+    "user": {
+        "name": "Masha Kujou",
+        "username": "@masha-kujou_123",
+        "bio": "I'm a high school student...",
+        "following": 6,
+        "followers": 0,
+        "likes": "2.3B"
+    },
+    "stats": [
+        { "label": "Day streak", "value": "43", "icon": "🔥" },
+        { "label": "Total XP", "value": "1908", "icon": "⚡" },
+        { "label": "Current League", "value": "EPIC", "icon": "🏆" },
+        { "label": "Fastest record", "value": "5:24mins", "icon": "⌛" }
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "title": "Wildfire",
+            "description": "Reach a 40 day streak",
+            "progress": 40,
+            "max": 40,
+            "image": "/src/assets/MainPage/Profile/streak.png",
+            "color": "bg-yellow-400"
+        },
+        {
+            "id": 2,
+            "title": "Sage",
+            "description": "Earn 1500 XP",
+            "progress": 1500,
+            "max": 1500,
+            "image": "/src/assets/MainPage/Profile/sage.png",
+            "color": "bg-yellow-400"
+        },
+        {
+            "id": 3,
+            "title": "Champion",
+            "description": "Advance to the Emerald League",
+            "progress": 3,
+            "max": 3,
+            "image": "/src/assets/MainPage/Profile/champion.png",
+            "color": "bg-yellow-400"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "userName": "John",
+        "avatarInitial": "J",
+        "avatarColor": "bg-rose-300",
+        "actionText": "with",
+        "targetName": "Ramiro",
+        "timeAgo": "1 day ago",
+        "content": "Reached a 50 day Friend Streak together! 🎉🔥",
+        "image": null,
+        "likedBy": "Lala"
+    },
+    {
+        "id": 2,
+        "userName": "Robin",
+        "avatarInitial": "R",
+        "avatarColor": "bg-blue-400",
+        "actionText": "earns new",
+        "targetName": "Achievement",
+        "timeAgo": "19 hours ago",
+        "content": null,
+        "image": "/src/assets/MainPage/Social/social.png",
+        "likedBy": ""
+    }
+]

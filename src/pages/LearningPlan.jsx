@@ -1,12 +1,40 @@
-import React from 'react'
-import MainLayout from '../layouts/MainLayout'
+import React, { useState } from 'react';
+import MainLayout from '../layouts/MainLayout';
+import GoalSetter from '../components/LearningPlan/GoalSetter';
+import GoalContainer from '../components/LearningPlan/GoalContainer';
 
 function LearningPlan() {
-  return (
-    <MainLayout>
-        
-    </MainLayout>
-  )
+    const [refreshTrigger, setRefreshTrigger] = useState(0);
+
+    const handleGoalAdded = () => {
+        setRefreshTrigger(prev => prev + 1);
+    };
+
+    return (
+        <MainLayout>
+            <div className="main-content flex flex-col h-full overflow-y-auto p-0 [&::-webkit-scrollbar]:hidden scrollbar-none">
+                <div className="bg-gray-100 rounded-2xl p-12 shadow-md mb-5 flex items-center gap-4">
+                    <div>
+                        <h3 className="text-[30px] font-bold">
+                            Welcome back, user!!
+                        </h3>
+                        <p className="text-md text-gray-500">
+                            Stay consistent — small progress every day leads to big results 🚀
+                        </p>
+                    </div>
+                </div>
+
+                {/* Grid Section */}
+                <div className="grid grid-cols-1 gap-5 flex-1">
+                    <div className="grid grid-cols-2 gap-5 max-[768px]:grid-cols-1">
+                        <GoalSetter onAddGoal={handleGoalAdded} />
+                        
+                        <GoalContainer key={refreshTrigger} />
+                    </div>
+                </div>
+            </div>
+        </MainLayout>
+    );
 }
 
-export default LearningPlan
+export default LearningPlan;
