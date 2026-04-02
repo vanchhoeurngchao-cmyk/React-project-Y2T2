@@ -25,7 +25,7 @@ const MainLayout = ({ children }) => {
         <NavLink to="/dashboard"><span className="material-symbols-rounded">bar_chart_4_bars</span></NavLink>
         <NavLink to="/classes"><span className="material-symbols-rounded">menu_book</span></NavLink>
         <NavLink to="/practice"><span className="material-symbols-rounded">exercise</span></NavLink>
-        <NavLink to="/learning-plan"><span className="material-symbols-rounded">calendar_add_on</span></NavLink>
+        <NavLink to="/learningplan"><span className="material-symbols-rounded">calendar_add_on</span></NavLink>
         <NavLink to="/social"><span className="material-symbols-rounded">group_add</span></NavLink>
         <NavLink to="/profile"><span className="material-symbols-rounded">person</span></NavLink>
       </div>

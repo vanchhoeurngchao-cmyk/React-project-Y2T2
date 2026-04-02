@@ -1,0 +1,9 @@
+[
+  { "id": 1, "day": "Monday", "subject": "Vocabulary", "duration": "30 min" },
+  { "id": 2, "day": "Tuesday", "subject": "Listening", "duration": "45 min" },
+  { "id": 3, "day": "Wednesday", "subject": "Grammar", "duration": "40 min" },
+  { "id": 4, "day": "Thursday", "subject": "Speaking & Communicate", "duration": "30 min" },
+  { "id": 5, "day": "Friday", "subject": "Writing", "duration": "20 min" },
+  { "id": 6, "day": "Saturday", "subject": "Review", "duration": "50 min" },
+  { "id": 7, "day": "Sunday", "subject": "Reading", "duration": "1h" }
+]

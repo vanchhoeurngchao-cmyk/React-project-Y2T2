@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
 import GoalSetter from '../components/LearningPlan/GoalSetter';
 import GoalContainer from '../components/LearningPlan/GoalContainer';
+import Schedule from '../components/LearningPlan/Schedule';
 
 function LearningPlan() {
-    const [refreshTrigger, setRefreshTrigger] = useState(0);
-
-    const handleGoalAdded = () => {
-        setRefreshTrigger(prev => prev + 1);
-    };
 
     return (
         <MainLayout>
@@ -27,10 +22,11 @@ function LearningPlan() {
                 {/* Grid Section */}
                 <div className="grid grid-cols-1 gap-5 flex-1">
                     <div className="grid grid-cols-2 gap-5 max-[768px]:grid-cols-1">
-                        <GoalSetter onAddGoal={handleGoalAdded} />
+                        <GoalSetter/>
                         
-                        <GoalContainer key={refreshTrigger} />
+                        <GoalContainer/>
                     </div>
+                    <Schedule />
                 </div>
             </div>
         </MainLayout>
