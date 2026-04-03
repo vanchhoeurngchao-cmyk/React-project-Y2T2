@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id": "l1", "question": "Listen: 'Ohayou'. What time of day is it?", "correct": "Morning", "incorrect": ["Night", "Afternoon", "Evening"]},
+    {"id": "l2", "question": "Listen: 'Arigatou'. What is the speaker doing?", "correct": "Thanking someone", "incorrect": ["Greeting someone", "Saying goodbye", "Asking a question"]},
+    {"id": "l3", "question": "Listen: 'Sayounara'. When do you say this?", "correct": "Leaving for a long time", "incorrect": ["Entering a house", "Before eating", "Meeting a friend"]},
+    {"id": "l4", "question": "Listen: 'Sumimasen'. What is the speaker's intent?", "correct": "Getting attention/Apologizing", "incorrect": ["Saying yes", "Saying no", "Introducing themselves"]},
+    {"id": "l5", "question": "Listen: 'Oishii'. What are they talking about?", "correct": "Food taste", "incorrect": ["The weather", "A person", "A movie"]}
+  ]
+}

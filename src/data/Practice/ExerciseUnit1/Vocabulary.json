@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "v1",
+      "question": "What is the Japanese word for 'Teacher'?",
+      "correct": "Sensei (先生)",
+      "incorrect": ["Gakusei", "Isha", "Kaishain"]
+    },
+    {
+      "id": "v2",
+      "question": "What does 'Neko' (猫) mean?",
+      "correct": "Cat",
+      "incorrect": ["Dog", "Bird", "Rabbit"]
+    },
+    {
+      "id": "v3",
+      "question": "Which of these means 'Water'?",
+      "correct": "Mizu (水)",
+      "incorrect": ["Ocha", "Sake", "Gyuunyuu"]
+    },
+    {
+      "id": "v4",
+      "question": "What is the word for 'Friend'?",
+      "correct": "Tomodachi (友達)",
+      "incorrect": ["Kazoku", "Kodomo", "Hito"]
+    },
+    {
+      "id": "v5",
+      "question": "What does 'Hana' (花) mean?",
+      "correct": "Flower",
+      "incorrect": ["Sky", "Mountain", "River"]
+    }
+  ]
+}

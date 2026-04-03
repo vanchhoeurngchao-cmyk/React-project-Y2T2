@@ -1,7 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ExerciseCard({ data }) {
-  const { title, icon, hearts, subtitle, description, outerBg, innerBg, textColor, isLocked } = data;
+  const {id, title, icon, hearts, subtitle, description, outerBg, innerBg, textColor, isLocked } = data;
+  const navigate = useNavigate();
+
+  const handleStart = () =>{
+    if(!isLocked){
+      navigate(`/exercise/${id}`);
+    }
+  }
 
   return (
     <div className={`Exercise-card ${outerBg} rounded-4xl p-6 text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl`}>
@@ -22,6 +30,7 @@ function ExerciseCard({ data }) {
         <p className="text-white/90 text-sm mb-4">{description}</p>
         
         <button 
+          onClick={handleStart}
           disabled={isLocked}
           className={`start-btn bg-white ${textColor} font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:bg-opacity-90 hover:scale-105 disabled:opacity-50`}
         >

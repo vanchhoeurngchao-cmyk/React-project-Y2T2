@@ -3,11 +3,11 @@ import scheduleData from '../../data/LearningPlan/ScheduleData.json';
 
 function Schedule() {
   return (
-    <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm px-6 py-8 mb-6">
+    <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-md px-6 py-8 mb-6">
       
       {/* HEADER */}
       <div className="flex flex-col sm:flex-row items-center justify-between mb-8 gap-4 px-2">
-        <h3 className="text-2xl md:text-3xl font-black text-gray-800 tracking-tight">
+        <h3 className="text-2xl max-[768px]:text-lg font-bold">
           Weekly Learning Schedule
         </h3>
         <button className="bg-blue-500 hover:bg-blue-400 text-white px-6 py-2 rounded-2xl font-extrabold shadow-[0_4px_0_0_#1b75d0] active:shadow-none active:translate-y-1 transition-all text-sm uppercase tracking-wider whitespace-nowrap">
@@ -20,10 +20,10 @@ function Schedule() {
           <table className="min-w-150 w-full table-auto text-base border-collapse">
             <thead className="bg-gray-50 border-b-2 border-gray-100">
               <tr>
-                <th className="px-6 py-4 text-left font-black text-gray-500 uppercase text-xs tracking-widest w-1/4">Day</th>
-                <th className="px-6 py-4 text-left font-black text-gray-500 uppercase text-xs tracking-widest w-1/4">Subject</th>
-                <th className="px-6 py-4 text-left font-black text-gray-500 uppercase text-xs tracking-widest w-1/4">Duration</th>
-                <th className="px-6 py-4 text-center font-black text-gray-500 uppercase text-xs tracking-widest w-1/4">Action</th>
+                <th className="px-6 py-6 text-left font-black text-gray-500 uppercase text-sm tracking-widest w-1/4">Day</th>
+                <th className="px-6 py-6 text-left font-black text-gray-500 uppercase text-sm tracking-widest w-1/4">Subject</th>
+                <th className="px-6 py-6 text-left font-black text-gray-500 uppercase text-sm tracking-widest w-1/4">Duration</th>
+                <th className="px-6 py-6 text-center font-black text-gray-500 uppercase text-sm tracking-widest w-1/4">Action</th>
               </tr>
             </thead>
 

@@ -8,6 +8,7 @@ import Practice from './pages/Practice';
 import LearningPlan from './pages/LearningPlan';
 import Social from './pages/Social';
 import Profile from './pages/Profile';
+import ExercisePage from './pages/Exercise/ExercisePage';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path='/LearningPlan' element={<LearningPlan/>} />
         <Route path='/Social' element={<Social/>} />
         <Route path='/Profile' element={<Profile/>} />
+
+        <Route path='/exercise/:id' element={<ExercisePage/>} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>

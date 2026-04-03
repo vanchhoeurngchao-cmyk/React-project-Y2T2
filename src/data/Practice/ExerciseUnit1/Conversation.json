@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id": "c1", "question": "A: 'O-genki desu ka?' (How are you?) B: ___", "correct": "Hai, genki desu.", "incorrect": ["O-namae wa?", "Doko desu ka?", "Arigatou."]},
+    {"id": "c2", "question": "A: 'Itadakimasu!' B: ___", "correct": "(No specific reply, usually start eating)", "incorrect": ["Oyasumi", "Sayounara", "Ohayou"]},
+    {"id": "c3", "question": "A: 'Arigatou gozaimasu.' B: ___ (You're welcome)", "correct": "Dou-itashimashite", "incorrect": ["Gomen nasai", "Sumimasen", "Hajimemashite"]},
+    {"id": "c4", "question": "A: 'Ikura desu ka?' (How much is it?) B: ___", "correct": "1000-en desu.", "incorrect": ["Tanaka desu.", "Gakusei desu.", "Nihon-jin desu."]},
+    {"id": "c5", "question": "A: 'Oyasumi-nasai.' (Goodnight) B: ___", "correct": "Oyasumi-nasai.", "incorrect": ["Konnichiwa.", "Konbanwa.", "Ohayou."]}
+  ]
+}

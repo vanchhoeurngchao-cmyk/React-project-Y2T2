@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id": "r1", "question": "Read: 'Tanaka-san wa sensei desu.' What is Tanaka's job?", "correct": "Teacher", "incorrect": ["Student", "Doctor", "Engineer"]},
+    {"id": "r2", "question": "Read: 'Kore wa neko desu.' What is 'Kore'?", "correct": "This (near speaker)", "incorrect": ["That (near listener)", "That over there", "Who"]},
+    {"id": "r3", "question": "Read: 'Nihon-go ga suki desu.' What does the person like?", "correct": "Japanese language", "incorrect": ["Japanese food", "Japanese culture", "Japanese music"]},
+    {"id": "r4", "question": "Read: 'Ashita wa nichiyoubi desu.' What day is tomorrow?", "correct": "Sunday", "incorrect": ["Monday", "Friday", "Saturday"]},
+    {"id": "r5", "question": "Read: 'Gakko wa doko desu ka?' What are they asking?", "correct": "Where is the school?", "incorrect": ["Who is at school?", "When is school?", "Is this a school?"]}
+  ]
+}

@@ -7,7 +7,7 @@ function GoalSetter({ onAddGoal }) {
     const handleAddGoal = () => {
         if (goalName.trim() && goalTarget.trim()) {
             onAddGoal({
-                id: Date.now(),
+                id: Date.now(), 
                 name: goalName,
                 target: parseInt(goalTarget),
                 current: 0,
@@ -20,7 +20,7 @@ function GoalSetter({ onAddGoal }) {
 
     return (
         <div className="bg-white rounded-3xl shadow-md px-6 py-6 h-107.5 flex flex-col">
-            <h3 className="text-xl font-bold mb-6 text-center">
+            <h3 className="text-2xl font-bold max-[768px]:text-lg mb-6 text-center">
                 Set Monthly Goal
             </h3>
             

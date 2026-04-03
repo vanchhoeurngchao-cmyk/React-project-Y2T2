@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id": "w1", "question": "How do you write 'I' (Polite/Neutral)?", "correct": "Watashi (私)", "incorrect": ["Boku", "Ore", "Anata"]},
+    {"id": "w2", "question": "What is the Hiragana for 'A'?", "correct": "あ", "incorrect": ["い", "う", "お"]},
+    {"id": "w3", "question": "How do you write 'Sakura' in Hiragana?", "correct": "さくら", "incorrect": ["きくら", "さくり", "すくら"]},
+    {"id": "w4", "question": "Which script is used for foreign loanwords (like 'Coffee')?", "correct": "Katakana", "incorrect": ["Hiragana", "Kanji", "Romaji"]},
+    {"id": "w5", "question": "What is the Hiragana for 'Ka'?", "correct": "か", "incorrect": ["が", "た", "な"]}
+  ]
+}

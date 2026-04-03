@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id": "s1", "question": "How do you say 'Excuse me' to a waiter?", "correct": "Sumimasen", "incorrect": ["Gomen nasai", "Ohayou", "Konnichiwa"]},
+    {"id": "s2", "question": "How do you introduce yourself?", "correct": "Watashi wa ... desu", "incorrect": ["Anata wa ... desu", "Kore wa ... desu", "Sore wa ... desu"]},
+    {"id": "s3", "question": "How do you say 'Nice to meet you'?", "correct": "Hajimemashite", "incorrect": ["Oyasumi", "Itadakimasu", "Gochisousama"]},
+    {"id": "s4", "question": "How do you ask 'Is it okay?'", "correct": "Daijoubu desu ka?", "incorrect": ["Nan desu ka?", "Doko desu ka?", "Ikura desu ka?"]},
+    {"id": "s5", "question": "How do you say 'I understand'?", "correct": "Wakarimashita", "incorrect": ["Shirimasen", "Chigaimasu", "Wakarimasen"]}
+  ]
+}

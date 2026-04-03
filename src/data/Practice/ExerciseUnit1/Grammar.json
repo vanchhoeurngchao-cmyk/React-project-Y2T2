@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {"id": "g1", "question": "Which particle marks the topic? 'Watashi __ Tanaka desu.'", "correct": "wa (は)", "incorrect": ["no (の)", "wo (を)", "ni (に)"]},
+    {"id": "g2", "question": "How do you make a sentence a question?", "correct": "Add 'ka' (か) at the end", "incorrect": ["Add 'no' (の) at the end", "Change the verb", "Add 'desu'"]},
+    {"id": "g3", "question": "Which particle shows possession? 'Watashi __ hon.' (My book)", "correct": "no (の)", "incorrect": ["wa (は)", "ga (が)", "to (と)"]},
+    {"id": "g4", "question": "What is the polite ending for a noun sentence?", "correct": "desu (です)", "incorrect": ["da (だ)", "masu (ます)", "nai (ない)"]},
+    {"id": "g5", "question": "Which particle marks the object? 'Ringo __ tabemasu.'", "correct": "wo (を)", "incorrect": ["wa (は)", "ni (に)", "de (で)"]}
+  ]
+}

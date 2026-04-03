@@ -79,7 +79,7 @@ function GoalContainer({ refreshTrigger }) {
             </div>
             
             <div className="w-full">
-                <h3 className="text-xl max-[768px]:text-lg font-bold mb-6 text-center">
+                <h3 className="text-2xl max-[768px]:text-lg font-bold mb-6 text-center">
                     Monthly Goals
                 </h3>
                 
