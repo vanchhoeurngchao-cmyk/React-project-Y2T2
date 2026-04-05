@@ -27,7 +27,7 @@ function Login() {
         }
     };
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-slate-50 font-['Fredoka'] p-4">
+    <div className="h-screen w-full flex items-center justify-center bg-slate-50 font-['Fredoka'] p-4">
         <div className="bg-white rounded-[40px] shadow-2xl overflow-hidden w-full max-w-120 border border-gray-100 transition-all duration-500">
             
             <div className="flex bg-gray-50/50">

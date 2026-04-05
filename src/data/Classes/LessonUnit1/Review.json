@@ -1,0 +1,10 @@
+{
+  "title": "Review: Unit 1 Recap",
+  "slides": [
+    { "id": 1, "heading": "You've Done It!", "content": "You've finished the core lessons of Unit 1. Let's do a quick mental check.", "image": "📈" },
+    { "id": 2, "heading": "Grammar Check", "content": "Do you remember where the verb goes? (Hint: The end!). Can you use 'wa'?", "image": "🏗️" },
+    { "id": 3, "heading": "Script Check", "content": "Can you recognize あ, い, and う? If not, revisit the Reading lesson.", "image": "📋" },
+    { "id": 4, "heading": "Daily Habit", "content": "Consistency is better than intensity. 10 minutes every day is better than 2 hours once a week.", "image": "⏳" },
+    { "id": 5, "heading": "Next Steps", "content": "Once you feel ready, go to the Practice section to earn some XP and test your skills!", "image": "🚀" }
+  ]
+}

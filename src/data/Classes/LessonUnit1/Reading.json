@@ -1,0 +1,10 @@
+{
+  "title": "Reading: Hiragana Basics",
+  "slides": [
+    { "id": 1, "heading": "The 3 Scripts", "content": "Japanese uses Hiragana (phonetic), Katakana (foreign words), and Kanji (symbols).", "image": "📑" },
+    { "id": 2, "heading": "Reading Order", "content": "Most modern Japanese is read left-to-right, just like English books.", "image": "📖" },
+    { "id": 3, "heading": "The 'A' Row", "content": "The first five characters are あ (a), い (i), う (u), え (e), お (o).", "image": "あ" },
+    { "id": 4, "heading": "Visual Mnemonics", "content": "Try to see shapes in the characters. 'i' (い) looks like two needles.", "image": "📍" },
+    { "id": 5, "heading": "Practice Daily", "content": "Even reading just 5 characters a day will help you master the script in one month!", "image": "📅" }
+  ]
+}

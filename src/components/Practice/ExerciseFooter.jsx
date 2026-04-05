@@ -12,17 +12,24 @@ function ExerciseFooter({ status, onCheck, onNext, disabled, correctAnswer }) {
                 
                 <div className="flex flex-col">
                     {status === 'correct' && (
-                        <div className="flex items-center gap-2 text-green-700">
-                             <span className="material-symbols-rounded text-3xl">check_circle</span>
-                             <span className="font-black text-2xl uppercase">Excellent!</span>
+                        <div className="flex flex-col">
+                            <div className="flex items-center gap-2 text-green-700">
+                                 <span className="material-symbols-rounded text-3xl">check_circle</span>
+                                 <span className="font-black text-2xl uppercase">Excellent!</span>
+                            </div>
+                            {/* Visual XP Reward indicator */}
+                            <p className="text-green-600 font-bold ml-9 animate-bounce text-lg">+10 XP ⚡</p>
                         </div>
                     )}
+                    
                     {status === 'wrong' && (
                         <div className="flex items-center gap-2 text-red-700">
                              <span className="material-symbols-rounded text-3xl">cancel</span>
                              <div>
                                 <p className="font-black text-2xl uppercase leading-none">Correct solution:</p>
                                 <p className="font-bold text-lg">{correctAnswer}</p>
+                                {/* Tell them they missed out on XP */}
+                                <p className="text-red-400 font-bold text-sm italic">+0 XP this time</p>
                              </div>
                         </div>
                     )}
@@ -33,8 +40,8 @@ function ExerciseFooter({ status, onCheck, onNext, disabled, correctAnswer }) {
                     disabled={disabled && !hasResult}
                     className={`px-12 py-3 rounded-2xl font-black uppercase tracking-widest transition-all active:translate-y-1 shadow-[0_4px_0_0_rgba(0,0,0,0.2)]
                         ${hasResult ? 'bg-white' : 'bg-green-500 text-white'}
-                        ${status === 'correct' ? 'text-green-600' : ''}
-                        ${status === 'wrong' ? 'text-red-600' : ''}
+                        ${status === 'correct' ? 'text-green-600 shadow-green-200' : ''}
+                        ${status === 'wrong' ? 'text-red-600 shadow-red-200' : ''}
                         ${disabled && !hasResult ? 'bg-gray-200 text-gray-400 shadow-none cursor-not-allowed' : 'hover:brightness-110'}
                     `}
                 >

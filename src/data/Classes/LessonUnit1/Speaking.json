@@ -1,0 +1,10 @@
+{
+  "title": "Speaking: Daily Greetings",
+  "slides": [
+    { "id": 1, "heading": "Ohayou", "content": "Say 'Ohayou' in the morning. With friends, just 'Ohayou'. To teachers, use 'Ohayou Gozaimasu'.", "image": "🌅" },
+    { "id": 2, "heading": "Konnichiwa", "content": "This is used from late morning until sunset. It is the most versatile greeting.", "image": "👋" },
+    { "id": 3, "heading": "Konbanwa", "content": "Once the sun goes down, switch to 'Konbanwa' for 'Good evening'.", "image": "🌙" },
+    { "id": 4, "heading": "Sumimasen", "content": "This means 'Excuse me'. Use it to get a waiter's attention or if you bump into someone.", "image": "🔔" },
+    { "id": 5, "heading": "Arigatou", "content": "Always say 'Arigatou' to show thanks. For extra politeness, add 'Gozaimasu'.", "image": "💖" }
+  ]
+}

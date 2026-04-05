@@ -1,13 +1,23 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useUser } from '../../hooks/useUser';
 
 function ExerciseCard({ data }) {
-  const {id, title, icon, hearts, subtitle, description, outerBg, innerBg, textColor, isLocked } = data;
+  const {id, title, icon, subtitle, description, outerBg, innerBg, textColor, isLocked } = data;
   const navigate = useNavigate();
+  const { hearts, loseHeart } = useUser();
 
   const handleStart = () =>{
-    if(!isLocked){
+    if (isLocked) {
+      alert("This exercise is locked! Complete previous levels to unlock it.");
+      return;
+    }
+    
+    if(hearts > 0){
+      loseHeart();
       navigate(`/exercise/${id}`);
+    }else{
+      alert("You need at least 1 ❤️ to practice! Go to Classes to earn more.")
     }
   }
 

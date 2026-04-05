@@ -1,0 +1,10 @@
+{
+  "title": "Writing: Stroke Order",
+  "slides": [
+    { "id": 1, "heading": "Top to Bottom", "content": "Rule #1: Always start from the top of the character and work your way down.", "image": "⬇️" },
+    { "id": 2, "heading": "Left to Right", "content": "Rule #2: Horizontal strokes are written from the left side to the right side.", "image": "➡️" },
+    { "id": 3, "heading": "The 'Hook' (Hane)", "content": "Some strokes end with a tiny flick or 'hook'. This is essential for proper calligraphy.", "image": "🖌️" },
+    { "id": 4, "heading": "Balance", "content": "Try to imagine a square box around the character. Keep the strokes centered and balanced.", "image": "🔳" },
+    { "id": 5, "heading": "The Brush Feel", "content": "Even with a pen, imagine the pressure of a brush. Start heavy, end light.", "image": "🖋️" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Listening: Pitch & Rhythm",
+  "slides": [
+    { "id": 1, "heading": "Flat Vowels", "content": "Japanese vowels (a, i, u, e, o) are always short and consistent. They never change sound.", "image": "🔊" },
+    { "id": 2, "heading": "Double Consonants", "content": "A small 'tsu' (っ) creates a tiny pause. It's like a 'hiccup' in the middle of a word.", "image": "⏱️" },
+    { "id": 3, "heading": "Long Vowels", "content": "Sometimes vowels are held longer. 'Obasan' (Aunt) vs 'Obaasan' (Grandmother) is a big difference!", "image": "👵" },
+    { "id": 4, "heading": "Context Clues", "content": "If you don't catch a word, listen for the particles like 'wa' or 'ka' to understand the sentence goal.", "image": "👂" },
+    { "id": 5, "heading": "Natural Speed", "content": "Native speakers often blend sounds. Don't worry if it sounds fast; your ears will adapt!", "image": "🌊" }
+  ]
+}

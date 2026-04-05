@@ -4,6 +4,7 @@ import ExerciesLayout from '../../layouts/ExerciesLayout.jsx';
 import AnswerCard from '../../components/Practice/AnswerCard';
 import ExerciseFooter from '../../components/Practice/ExerciseFooter';
 import { useExercise } from '../../hooks/Practice/useExercise';
+import { useUser } from '../../hooks/useUser';
 
 import listeningData from '../../data/Practice/ExerciseUnit1/Listening.json';
 import grammarData from '../../data/Practice/ExerciseUnit1/Grammar.json';
@@ -16,6 +17,7 @@ import conversationData from '../../data/Practice/ExerciseUnit1/Conversation.jso
 function ExercisePage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { addXp } = useUser();
 
   const dataMap = {
     "1": listeningData,
@@ -29,18 +31,15 @@ function ExercisePage() {
 
   const selectedData = dataMap[id] || vocabData;
 
-  const { 
-    currentQuestion, 
-    options, 
-    status, 
-    selectedAnswer, 
-    isFinished, 
-    score, 
-    progress, 
-    handleSelect, 
-    checkAnswer, 
-    nextQuestion 
-  } = useExercise(selectedData);
+  const { currentQuestion, options, status, selectedAnswer, isFinished, score, progress, handleSelect, checkAnswer, nextQuestion } = useExercise(selectedData);
+
+  const handleNextAction = () => {
+    if (status === 'correct') {
+      addXp(10);
+    } 
+
+    nextQuestion();
+};
 
   if (isFinished) {
     return (
@@ -49,10 +48,7 @@ function ExercisePage() {
           <span className="text-8xl mb-6">🏆</span>
           <h1 className="text-4xl font-black text-gray-800 mb-2">Unit Complete!</h1>
           <p className="text-xl text-gray-500 font-bold mb-10">You earned {score} XP</p>
-          <button 
-            onClick={() => navigate('/Practice')}
-            className="bg-green-500 text-white px-12 py-4 rounded-2xl font-black uppercase tracking-widest shadow-[0_5px_0_0_#15803d] active:translate-y-1 active:shadow-none transition-all"
-          >
+          <button onClick={() => navigate('/Practice')} className="bg-green-500 text-white px-12 py-4 rounded-2xl font-black uppercase tracking-widest shadow-[0_5px_0_0_#15803d] active:translate-y-1 active:shadow-none transition-all">
             Continue
           </button>
         </div>
@@ -84,7 +80,7 @@ function ExercisePage() {
       <ExerciseFooter 
         status={status}
         onCheck={checkAnswer}
-        onNext={nextQuestion}
+        onNext={handleNextAction}
         disabled={!selectedAnswer}
         correctAnswer={currentQuestion?.correct}
       />

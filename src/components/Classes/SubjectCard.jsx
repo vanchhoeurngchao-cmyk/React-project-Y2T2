@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function SubjectCard({ title, description, bgColor, btnTextColor, image, imgStyle }) {
+function SubjectCard({ data }) {
+  const {id, title, description, bgColor, btnTextColor, image, imgStyle } = data;
+  const navigate = useNavigate();
+  
+  const handleStart = () =>{
+    navigate(`/lesson/${id}`);
+  }
+
   return (
     <div className={`rounded-3xl p-6 text-white relative flex flex-col justify-between min-h-70 shadow-lg transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl ${bgColor}`}>
       <div>
@@ -8,7 +16,9 @@ function SubjectCard({ title, description, bgColor, btnTextColor, image, imgStyl
         <p className="text-white/90 mt-2 mb-6">{description}</p>
       </div>
 
-      <button className={`bg-white font-bold px-4 py-2 rounded-xl w-fit transform transition duration-300 hover:scale-105 ${btnTextColor}`}>
+      <button 
+        onClick={handleStart}
+        className={`bg-white font-bold px-4 py-2 rounded-xl w-fit transform transition duration-300 hover:scale-105 ${btnTextColor}`}>
         START +1 ❤️
       </button>
 

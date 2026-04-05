@@ -17,15 +17,7 @@ function Classes() {
             {/* Classes Grid */}
             <div className="bg-white rounded-3xl shadow-md p-8 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-5 max-[768px]:grid-cols-2 max-[600px]:grid-cols-1 flex-1 mb-1">
                 {SubjectData.map((subject) => (
-                    <SubjectCard 
-                        key={subject.id}
-                        title={subject.title}
-                        description={subject.description}
-                        bgColor={subject.bgColor}
-                        btnTextColor={subject.btnTextColor}
-                        image={subject.image}
-                        imgStyle={subject.imgStyle}
-                    />
+                    <SubjectCard key={subject.id} data={subject} />
                 ))}
             </div>
         </div>

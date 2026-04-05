@@ -1,0 +1,10 @@
+{
+  "title": "Grammar: Sentence Structure",
+  "slides": [
+    { "id": 1, "heading": "The Basic Order", "content": "In English, we say 'I eat apples.' In Japanese, the verb goes at the end: 'I apples eat.'", "image": "🏗️" },
+    { "id": 2, "heading": "The Topic Particle (wa)", "content": "Use 'は' (wa) after the person or thing you are talking about. 'Watashi wa...' means 'As for me...'", "image": "は" },
+    { "id": 3, "heading": "Desu (To be)", "content": "To say 'It is X', we use 'desu'. For example: 'Neko desu' (It is a cat).", "image": "🐾" },
+    { "id": 4, "heading": "Making Questions", "content": "Simply add 'ka' (か) to the end of any sentence to turn it into a question. No question mark needed!", "image": "❓" },
+    { "id": 5, "heading": "Politeness", "content": "Using 'desu' and 'masu' makes you sound polite and respectful to everyone you meet.", "image": "🙇" }
+  ]
+}

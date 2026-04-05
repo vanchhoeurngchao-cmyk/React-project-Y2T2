@@ -1,0 +1,10 @@
+{
+  "title": "Vocabulary: Essential Nouns",
+  "slides": [
+    { "id": 1, "heading": "People", "content": "'Sensei' means teacher, and 'Gakusei' means student. You are a Gakusei!", "image": "👨‍🏫" },
+    { "id": 2, "heading": "Animals", "content": "'Neko' is cat and 'Inu' is dog. These are the most common pets in Japan.", "image": "🐕" },
+    { "id": 3, "heading": "Food", "content": "'Gohan' means both 'meal' and 'cooked rice'. It is the heart of Japanese cuisine.", "image": "🍚" },
+    { "id": 4, "heading": "Drinks", "content": "'Mizu' is water. If you want tea, ask for 'Ocha'.", "image": "🍵" },
+    { "id": 5, "heading": "Objects", "content": "'Hon' is book, and 'Kuruma' is car. Try labeling things in your room!", "image": "🚗" }
+  ]
+}

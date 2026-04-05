@@ -16,7 +16,8 @@ export const useExercise = (data) => {
     const [status, setStatus] = useState('idle');
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [isFinished, setIsFinished] = useState(false);
-    const [score, setScore] = useState(0);
+    
+    const [localScore, setLocalScore] = useState(0);
 
     const [options, setOptions] = useState(() => generateShuffledOptions(questions[0]));
 
@@ -32,7 +33,7 @@ export const useExercise = (data) => {
     const checkAnswer = () => {
         if (selectedAnswer === currentQuestion.correct) {
             setStatus('correct');
-            setScore(prev => prev + 10);
+            setLocalScore(prev => prev + 10);
         } else {
             setStatus('wrong');
         }
@@ -43,7 +44,6 @@ export const useExercise = (data) => {
             const nextIndex = currentStep + 1;
             const nextQ = questions[nextIndex];
 
-            // Update everything in one go
             setCurrentStep(nextIndex);
             setOptions(generateShuffledOptions(nextQ));
             setStatus('idle');
@@ -59,7 +59,7 @@ export const useExercise = (data) => {
         status,
         selectedAnswer,
         isFinished,
-        score,
+        score: localScore,
         progress: (currentStep / questions.length) * 100,
         handleSelect,
         checkAnswer,

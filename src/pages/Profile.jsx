@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useUser } from '../hooks/useUser';
 import MainLayout from '../layouts/MainLayout';
 import StatCard from '../components/Profile/StatCard';
 import Settings from '../components/Profile/Settings';
@@ -11,6 +12,7 @@ import profileData from '../data/Profile/ProfileData.json';
 function Profile() {
     const [isSettingsOpen, setIsSettingsOpen] = useState(false);
     const { user, stats, achievements } = profileData;
+    const {xp} = useUser();
 
     return (
         <MainLayout>
@@ -27,9 +29,18 @@ function Profile() {
                     {/* Stats Grid */}
                     <h3 className="font-extrabold text-3xl mt-10 mb-4 ml-2">Overview</h3>
                     <div className="grid grid-cols-2 gap-4">
-                        {stats.map((stat, idx) => (
-                            <StatCard key={idx} {...stat} />
-                        ))}
+                        {stats.map((stat, idx) => {
+                            const displayValue = stat.label === "Total XP" ? xp : stat.value;
+
+                            return (
+                                <StatCard 
+                                    key={idx} 
+                                    icon={stat.icon}
+                                    label={stat.label}
+                                    value={displayValue} 
+                                />
+                            );
+                        })}
                     </div>
 
                     {/* Friend List - Visible on mobile*/}
