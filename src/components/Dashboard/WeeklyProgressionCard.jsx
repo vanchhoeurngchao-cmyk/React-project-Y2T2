@@ -1,7 +1,6 @@
 import React from 'react';
 
 function WeeklyProgressCard({ subject, score, sessions }) {
-  // Logic to determine color based on performance
   const scoreColor = score >= 70 ? 'text-green-500' : 'text-red-500';
   const sessionColor = sessions >= 3 ? 'text-green-500' : 'text-red-500';
 
@@ -14,7 +13,7 @@ function WeeklyProgressCard({ subject, score, sessions }) {
       </p>
       
       <p className="text-gray-600">
-        Practice: <span className={`${sessionColor} font-bold`}>
+        Lesson: <span className={`${sessionColor} font-bold`}>
           {sessions} {sessions === 1 ? 'session' : 'sessions'}
         </span>
       </p>

@@ -2,8 +2,9 @@ import React from 'react'
 import MainLayout from '../layouts/MainLayout'
 import SubjectCard from '../components/Classes/SubjectCard'
 import SubjectData from '../data/Classes/SubjectData.json'
+
 function Classes() {
-  return (
+    return (
     <MainLayout>
         <div className="main-content flex flex-col h-full p-0 overflow-y-auto [&::-webkit-scrollbar]:hidden scrollbar-none">
             {/* Header */}
@@ -22,7 +23,7 @@ function Classes() {
             </div>
         </div>
     </MainLayout>
-  )
+    )
 }
 
 export default Classes

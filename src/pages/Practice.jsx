@@ -1,7 +1,9 @@
 import React from 'react'
 import MainLayout from '../layouts/MainLayout'
 import ExerciseCard from '../components/Practice/ExerciseCard'
+
 import PracticeCardData from '../data/Practice/PracticeCardData.json'
+
 import { useUser } from '../hooks/useUser'
 
 function Practice() {

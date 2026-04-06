@@ -2,10 +2,11 @@ import React from 'react'
 import closedChest from '../../assets/MainPage/Dashboard/chest.png';
 import openedChest from '../../assets/MainPage/Dashboard/opened_chest.png';
 
-function DailyQuestsCard({ task, current, total, color, isComplete }) {
+function DailyQuestsCard({ task, current, total, color}) {
+    const isComplete = current >= total;
     const percentage = Math.min((current / total) * 100, 100);
 
-    const progressBarColor = isComplete ? color : "#cecece";
+    const progressBarColor = color ;
 
     const displayImage = isComplete ? openedChest : closedChest;
 
@@ -22,7 +23,6 @@ function DailyQuestsCard({ task, current, total, color, isComplete }) {
                         }}
                     ></div>
                     
-                    {/* Progress Text */}
                     <span className={`absolute inset-0 flex items-center justify-center text-xs font-bold ${percentage > 50 ? 'text-white' : 'text-gray-600'}`}>
                         {current} / {total}
                     </span>

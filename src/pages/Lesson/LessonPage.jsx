@@ -19,7 +19,7 @@ function LessonPage() {
   const { id } = useParams();
   const navigate = useNavigate();
   
-  const { addHearts, addXp } = useUser();
+  const { addHearts, addXp, updateWeeklyStats } = useUser();
 
   const [hasRewarded, setHasRewarded] = useState(false);
 
@@ -44,6 +44,11 @@ function LessonPage() {
 
     if (isLastSlide && !hasRewarded) {
       addHearts(1);
+
+      if (id) {
+			  updateWeeklyStats(Number(id), 100);
+			}
+
       setHasRewarded(true);
     }
 

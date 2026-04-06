@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function CurrentLessonCard({title, topic, progress, color}) {
   return (
@@ -8,9 +9,11 @@ function CurrentLessonCard({title, topic, progress, color}) {
         <div className="w-full h-5 bg-gray-300 rounded-full mt-4 overflow-hidden">
             <div className="h-5 rounded-full transition-all duration-500" style={{width: `${progress}%`, backgroundColor: color}}></div>
         </div>
-        <button className="mt-4 w-full text-white py-2 rounded-xl font-bold transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg hover:brightness-110" style={{background:color}}>
-            Continue
-        </button>
+        <Link to="/Classes" className='block mt-4'>
+            <button className="mt-4 w-full text-white py-2 rounded-xl font-bold transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg hover:brightness-110" style={{background:color}}>
+                Continue
+            </button>
+        </Link>
     </div>
   )
 }   

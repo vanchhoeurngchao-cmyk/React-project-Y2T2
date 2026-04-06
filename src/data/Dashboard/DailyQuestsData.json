@@ -2,30 +2,35 @@
   {
     "id": 1,
     "task": "Complete 2 lessons",
+    "current": 2,
     "total": 2,
     "color": "#58CC02"
   },
   {
     "id": 2,
     "task": "Earn 20 XP",
+    "current": 10,
     "total": 20,
     "color": "#FF9500"
   },
   {
     "id": 3,
     "task": "Practice 5 minutes",
+    "current": 3,
     "total": 5,
     "color": "#1CB0F6"
   },
   {
     "id": 4,
     "task": "Complete a perfect lesson",
+    "current": 0,
     "total": 1,
     "color": "#cecece"
   },
   {
     "id": 5,
     "task": "Read 1 Story",
+    "current": 0,
     "total": 1,
     "color": "#ce93d8"
   }
